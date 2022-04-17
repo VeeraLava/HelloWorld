@@ -13,7 +13,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         addArrays(arr1: [1,2,3], arr2: [4,5,6])
-        
+        self.someOp()
     }
 
     func addArrays(arr1:[Int],arr2:[Int]){
@@ -27,9 +27,13 @@ class ViewController: UIViewController {
         }
         print(finalArray)
     }
-
     
-
+    func someOp(){
+        let a = 10
+        let b = 20
+        let c  = a + b
+        print(c)
+    }
 
 }
 
